@@ -1,0 +1,12 @@
+/flower_data/
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+.vscode/
+.env
+.env.*
+/runs/*
+!/runs/formal/
+!/runs/plateau/

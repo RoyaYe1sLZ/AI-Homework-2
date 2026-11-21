@@ -1,0 +1,19 @@
+{
+  "seed": 2026,
+  "epochs": 25,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "optimizer": "Adam",
+  "device": "mps",
+  "python": "3.13.17",
+  "torch": "2.15.0",
+  "torchvision": "0.29.2",
+  "classes": [
+    "daisy",
+    "dandelion",
+    "roses",
+    "sunflowers",
+    "tulips"
+  ],
+  "manifest_sha256": "a8c347c4664d51b6ccd717b5f96ab805dc706195f3d61cdbef7921756c3c734a"
+}

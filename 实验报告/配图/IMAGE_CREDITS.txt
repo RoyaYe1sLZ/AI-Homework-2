@@ -1,0 +1,18 @@
+展示图片来源与摄影者署名
+许可 CC BY 2.0   https://creativecommons.org/licenses/by/2.0/
+展示图经过缩放与中心裁剪；预测分数及标注来自本实验。
+
+03_predictions.png
+daisy/10172379554_b296050f82_n.jpg CC-BY by Sarah Zucca - https://www.flickr.com/photos/livetocreate_photography/10172379554/
+dandelion/10043234166_e6dd915111_n.jpg CC-BY by Vlastimil Koutecký - https://www.flickr.com/photos/vlastimil_koutecky/10043234166/
+roses/11102341464_508d558dfc_n.jpg CC-BY by Don Graham - https://www.flickr.com/photos/23155134@N06/11102341464/
+sunflowers/1044296388_912143e1d4.jpg CC-BY by matze_ott - https://www.flickr.com/photos/matze_ott/1044296388/
+tulips/10094731133_94a942463c.jpg CC-BY by Jocelyn Kinghorn - https://www.flickr.com/photos/joceykinghorn/10094731133/
+
+04_errors.png
+dandelion/7040710179_7f86a17a3c_n.jpg CC-BY by Robert Couse-Baker - https://www.flickr.com/photos/29233640@N07/7040710179/
+tulips/3238068295_b2a7b17f48_n.jpg CC-BY by Franklin Heijnen - https://www.flickr.com/photos/franklinheijnen/3238068295/
+dandelion/1080179756_5f05350a59.jpg CC-BY by John Haslam - https://www.flickr.com/photos/foxypar4/1080179756/
+roses/2347579838_dd6d2aaefc_n.jpg CC-BY by bixentro - https://www.flickr.com/photos/bixentro/2347579838/
+dandelion/6019234426_d25ea1230a_m.jpg CC-BY by Loco Steve - https://www.flickr.com/photos/locosteve/6019234426/
+roses/2980099495_cf272e90ca_m.jpg CC-BY by Wonderlane - https://www.flickr.com/photos/wonderlane/2980099495/
