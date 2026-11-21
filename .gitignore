@@ -10,3 +10,5 @@ __pycache__/
 /runs/*
 !/runs/formal/
 !/runs/plateau/
+
+.ipynb_checkpoints/

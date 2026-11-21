@@ -2,7 +2,7 @@
 
 用 PyTorch 从头训练一个四层卷积神经网络，识别雏菊、蒲公英、玫瑰、向日葵和郁金香。两组实验使用相同的网络、数据划分、随机种子和 25 轮训练预算，比较 Adam 固定学习率与根据验证损失动态调节学习率的效果。
 
-[完整实验报告](实验报告/花卉识别实验报告.md) · [实验记录与图集](docs/实验记录.md) · [最终模型权重](runs/plateau/best.pt) · [图片署名与许可](实验报告/配图/IMAGE_CREDITS.txt)
+[交互式 Notebook](花卉识别实验.ipynb) · [完整实验报告](实验报告/花卉识别实验报告.md) · [实验记录与图集](docs/实验记录.md) · [最终模型权重](runs/plateau/best.pt) · [图片署名与许可](实验报告/配图/IMAGE_CREDITS.txt)
 
 ## 实验结果
 
@@ -32,6 +32,17 @@ python -m pip install -r requirements.txt
 ```bash
 python main.py predict --run-dir runs/plateau --image "/path/to/flower.jpg"
 ```
+
+## 在 JupyterLab 逐格运行
+
+[花卉识别实验.ipynb](花卉识别实验.ipynb) 保存了已执行的输出，可以在 GitHub 直接预览。若要交互运行，先按上一节安装实验依赖，再从仓库根目录启动 JupyterLab。
+
+```bash
+python -m pip install jupyterlab ipykernel
+python -m jupyterlab
+```
+
+打开 Notebook，选择与项目依赖相同的 Python 内核，按 **Shift + Enter** 逐格运行。查看已有曲线和指标可直接运行；重新评估需要在第 1 节配置课程数据目录。想预测自己的照片，可以设置 `IMAGE_PATH`。最后一格默认跳过正式训练，将 `RUN_TRAINING` 设为 `True` 可在单独的目录中从头训练。
 
 ## 数据与实验复现
 
